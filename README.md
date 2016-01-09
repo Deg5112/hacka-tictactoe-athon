@@ -1,11 +1,5 @@
-# hacka-tictactoe-athon
+This was our first hackathon, modeled after tic tac toe.
 
-Scope: 
-- Make a tic-tac-toe game
-  - at least 2 players
-  - at least 3x3 board size
-  - players alternate in some way or form
-  - one player should be able to win (though is not guaranteed)
-- Additional requirements:
-  - at least 2 board sizes
-  - Dynamic win condition generation: no hard-coded if statements or data structures to determine win conditions.  Such structures can be made, but must be made dynamically via code, not hand-coded in the final product.
+I was paired up with 3 other team members, and we were all delegated different parts of the app to create. My contribution was figuring out a way to have an image, follow the mouse for a first person shooter type of feel, I also made the X and O animations when a user clicks on a duck, along with the audio that follows it. 
+
+I also wrote the javascript function that handles the win condition. So everytime a user clicks on a duck, the function runs to check if player X or player O won the game or not.  This was another great experience where I got to work with a team, learn how to resolve merge conflicts. The most important lesson I learned was to get a working minimum viable product out the door as fast as possible, and worry about the design after the functionality works.
