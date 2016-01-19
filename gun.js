@@ -2,6 +2,11 @@ var pw = $('#pointer-wrap');
 var offset = pw.offset();
 
 function mouse(e) {
+    var width = window.innerWidth;
+    console.log('width');
+    if(width<992){
+        return;
+    }
     var center_x = (offset.left) + ( $('#pointer-wrap').width() / 2 );
     var center_y = (offset.top) + ( $('#pointer-wrap').height() / 2 );
     var radians = Math.atan2(e.pageX - center_x, e.pageY- center_y);
