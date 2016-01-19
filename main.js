@@ -11,9 +11,7 @@ var game = new tictactoeBoard(".center", "#winner"); //Input where the game boar
 
 $(document).ready(function () {
     var width = window.innerWidth;
-    if(width<992){
-        $('.smallModal').css('display', 'block');
-    } else{
+    if(width>992){
         $('.smallModal').css('display', 'none');
     }
 
