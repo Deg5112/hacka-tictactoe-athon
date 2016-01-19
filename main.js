@@ -18,7 +18,7 @@ $(document).ready(function () {
     game.setBoard(currentGameLevel);
 
     //click handler for ducks/tic-tac-toe squares
-    $(".center").on("click", ".target", function () {
+    $(".center").on("click tap", ".target", function () {
         var player = game.canIClick(this); //if the player can click the square return true
         if(player) {
             $(".playerOne").toggle();
@@ -28,7 +28,7 @@ $(document).ready(function () {
 
 
     //game board switch button
-    $( ".switch" ).click(function() {
+    $( ".switch" ).on('click tap', function() {
         $( ".switch" ).toggle();
     });
 
