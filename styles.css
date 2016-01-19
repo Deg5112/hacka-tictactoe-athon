@@ -8,7 +8,7 @@ body {
     height: 100vh;
 }
 .row {
-    transition: 1s;
+    -webkit-transition: 1s;
 }
 /* 3x3 Board */
 .background-three {
@@ -101,7 +101,7 @@ body {
     height: 50%;
     -webkit-transform: skew(0deg) scale(0);
     position: absolute;
-    transition: 2s;
+    -webkit-transition: 2s;
     top: 39%;
     left: 0;
 
@@ -113,7 +113,7 @@ body {
     height: 50%;
     position: absolute;
     -webkit-transform: skew(0deg) scale(0);
-    transition: 2s;
+    -webkit-transition: 2s;
     top: 39%;
     left: 3%;
 
@@ -143,10 +143,10 @@ body {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    transition: 2s;
+    -webkit-transition: 2s;
     -webkit-transform: scale(0) rotateY(0deg);
     left: 50%;
-    transform: translate(-50%, 50%) !important;
+    -webkit-transform: translate(-50%, 50%) !important;
 }
 .background-five .two{
     height: 50%;
@@ -204,8 +204,8 @@ button{
 
 /*add this class for resetting the cards, setTimeout function to remove class*/
 .reset-row {
-    transform: rotateX(92deg);
-    transform-origin: 50% 100%;
+    -webkit-transform: rotateX(92deg);
+    -webkit-transform-origin: 50% 100%;
     backface-visibility: hidden;
 }
 
@@ -261,7 +261,7 @@ button{
         position: absolute;
         top: 29%;
         left: 20%;
-        transform: rotateY(30deg);
+        -webkit-transform: rotateY(30deg);
     }
     .reset{
         font-size: 70%;
@@ -272,7 +272,7 @@ button{
         position: absolute;
         top: 23%;
         left: 50%;
-        transform: rotateY(30deg);
+        -webkit-transform: rotateY(30deg);
         font-size: 200%;
         border: none;
     }
