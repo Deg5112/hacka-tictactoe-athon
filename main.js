@@ -10,6 +10,15 @@ var game = new tictactoeBoard(".center", "#winner"); //Input where the game boar
 
 
 $(document).ready(function () {
+    $(window).resize(function(){
+        var width = window.innerWidth;
+        if(width<992){
+            $('.smallModal').css('display', 'block');
+        } else{
+            $('.smallModal').css('display', 'none');
+        }
+    });
+
 
     //hide win modal
     $('#winner').modal('hide');

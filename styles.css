@@ -119,6 +119,24 @@ body {
 
 }
 
+.smallModal {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    z-index: 1000;
+    color: white;
+}
+
+.smallModal p {
+    text-align: center;
+    margin-top: 50%;
+    margin: 50% auto;
+    padding: 0 5%;
+    font-size: 2em;
+}
+
 .expand2{
     -webkit-transform: skew(45deg) scale(1);
 }
